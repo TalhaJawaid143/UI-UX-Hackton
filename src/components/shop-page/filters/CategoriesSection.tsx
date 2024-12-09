@@ -1,6 +1,5 @@
 import Link from "next/link";
 import React from "react";
-import { MdKeyboardArrowRight } from "react-icons/md";
 
 type Category = {
   title: string;
@@ -32,17 +31,18 @@ const categoriesData: Category[] = [
 
 const CategoriesSection = () => {
   return (
-    <div className="flex flex-col space-y-0.5 text-black/60">
-      {categoriesData.map((category, idx) => (
-        <Link
-          key={idx}
-          href={category.slug}
-          className="flex items-center justify-between py-2"
-        >
-          {category.title} <MdKeyboardArrowRight />
-        </Link>
-      ))}
-    </div>
+    <section>
+      <h2 className="text-black font-bold text-xl mb-2">Categories</h2>
+      <ul className="flex flex-col space-y-2">
+        {categoriesData.map((category, idx) => (
+          <li key={idx}>
+            <Link href={category.slug} className="text-black/60 hover:underline">
+              {category.title}
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </section>
   );
 };
 
