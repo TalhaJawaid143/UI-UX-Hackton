@@ -98,10 +98,4 @@ Contributions are welcome! If you'd like to contribute, Please follow these step
 
 
 
-## Contact
-
-Feel free to reach out to:
-
-- **Name**: Mohammad Oftadeh
-- **Email**: [mr.mohammadoftadeh@gmail.com](mailto:mr.mohammadoftadeh@gmail.com)
-- **GitHub**: [https://github.com/mohammadoftadeh](https://github.com/mohammadoftadeh)
+-
