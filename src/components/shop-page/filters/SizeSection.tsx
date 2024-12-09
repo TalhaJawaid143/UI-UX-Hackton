@@ -38,7 +38,6 @@ const SizeSection = () => {
                   "bg-[#F0F0F0] m-1 flex items-center justify-center px-5 py-2.5 text-sm rounded-full max-h-[39px]",
                   selected === size && "bg-black font-medium text-white",
                 ])}
-                onClick={() => setSelected(size)}
               >
                 {size}
               </button>
