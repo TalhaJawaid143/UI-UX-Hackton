@@ -37,4 +37,3 @@ const ColorsSection = () => {
 };
 
 export default ColorsSection;
-
