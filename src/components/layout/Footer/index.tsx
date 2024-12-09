@@ -8,7 +8,7 @@ import LinksSection from "./LinksSection";
 import Image from "next/image";
 import NewsLetterSection from "./NewsLetterSection";
 import LayoutSpacing from "./LayoutSpacing";
-
+import Visa from '@/public/icons/Visa.svg';
 const socialsData: SocialNetworks[] = [
   {
     id: 1,
