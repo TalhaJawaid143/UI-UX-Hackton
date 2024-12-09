@@ -28,7 +28,7 @@ const socialsData: SocialNetworks[] = [
   {
     id: 4,
     icon: <FaGithub />,
-    url: "https://github.com/mohammadoftadeh",
+    url: "https://github.com",
   },
 ];
 
@@ -116,7 +116,7 @@ const Footer = () => {
                 href=""
                 className="text-black font-medium"
               >
-                 Talha Jawaid
+                Talha Jawaid
               </Link>
             </p>
             <div className="flex items-center">
