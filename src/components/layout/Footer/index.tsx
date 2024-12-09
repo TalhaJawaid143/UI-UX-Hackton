@@ -105,7 +105,7 @@ const Footer = () => {
             <p className="text-sm text-center sm:text-left text-black/60 mb-4 sm:mb-0 sm:mr-1">
               Shop.co © Made by{" "}
               <Link
-                href="https://github.com"
+                href=""
                 className="text-black font-medium"
               >
                 Talha Jawaid
@@ -113,7 +113,7 @@ const Footer = () => {
               {", "}
               Designed by{" "}
               <Link
-                href="https://www.figma.com"
+                href=""
                 className="text-black font-medium"
               >
                  Talha Jawaid
